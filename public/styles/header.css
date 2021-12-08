@@ -1,0 +1,23 @@
+#header {
+     position: sticky;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        top: 0;
+     background-color: rgba(112, 219, 70, 0.884);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   #header a {
+     display: inline-block;
+        margin: 0px 30px;
+     text-decoration: none;
+     text-transform: uppercase;
+     align-items:flex-end
+   }
+   
+   #header a:hover {
+     cursor: pointer;
+     color: rgb(98, 134, 138);
+     font-weight: bolder;
+   }
